@@ -5,7 +5,6 @@ import { expect } from './shared/expect'
 import { deployContract, getWallets } from './shared/zkSyncUtils'
 import { PoolTicksCounterTest } from '../typechain'
 import { MockPool } from '../typechain'
-import { deployContract, getWallets } from './shared/zkSyncUtils'
 
 describe('PoolTicksCounter', () => {
   const TICK_SPACINGS = [200, 60, 10]

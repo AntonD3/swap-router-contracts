@@ -11,7 +11,10 @@
     "v2",
     "v3"
   ],
-  "repository": "https://github.com/uniswap-zksync/era-uniswap-swap-router-contracts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uniswap-zksync/era-uniswap-swap-router-contracts"
+  },
   "files": [
     "contracts/base",
     "contracts/interfaces",
